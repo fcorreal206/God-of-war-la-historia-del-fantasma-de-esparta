@@ -1,0 +1,183 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: white;
+}
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+#home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("https://i.ytimg.com/vi/nZ_TtDrCvo8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBIlG5S0-tfHu4H7OmIvd59HujPog");
+    background-size: cover;
+    background-position: center;
+}
+#home h1{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+#home h1,
+#home h2,
+#home nav{
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #751708;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 21px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin: 10px;
+    border-radius: 12px;
+}
+nav a{
+    text-decoration: none;
+    background-color: #8b0000;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+nav a:hover{
+    background-color: #c1121f;
+    transform: scale(1.05);
+}
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    overflow: hidden;
+}
+header{
+    background-color: beige;
+    padding: 5%;
+}
+header{
+    background-color: #2a2a2a;
+    padding: 40px;
+}
+nav{
+    background-color:  #800000;
+    padding: 5%;
+
+}
+section{
+    padding: 40px;
+    border-bottom: 1px solid #333;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    padding: 5%;
+}
+
+section h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+section p,
+section li{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+ul{
+    margin-left: 20px;
+}
+section a{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+section a:hover{
+    background-color: #c1121f;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    padding: 1%;
+    text-align: center;
+}
+section img{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+
+    display: block;
+    margin: 25px auto;
+
+    border-radius: 15px;
+    border: 3px solid #751708;
+
+    box-shadow: 0px 0px 15px black;
+}
+section{
+    min-height: 600px;
+}
